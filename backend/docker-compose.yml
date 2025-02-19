@@ -1,3 +1,9 @@
+
+# Definimos el contexto para que Docker cree la imagen correcta y utilice el Dockerfile pertinente. 
+# Utilizamos los puertos especificados en los README de Django y React.
+# Le damos un nombre al contenedor y a la imagen para que referenciarlos sea mas facil.
+# Todos los contenedores necesarios se despliegan con este archivo docker-compose
+
 version: '3.8'
 
 services:
@@ -11,7 +17,27 @@ services:
     ports:
       - 5432:5432
 
+  backend:
+    build: 
+        context: ../backend
+        dockerfile: Dockerfile
+    image: project_backend
+    container_name: django
+    ports:
+     - "8000:8000"
+
+  frontend:
+   build: 
+      context: ../frontend
+      dockerfile: Dockerfile
+   image: project_frontend 
+   container_name: react
+   ports:
+    - "3000:3000"
+
 volumes:
   postgres_data:
   static:
   media:
+
+

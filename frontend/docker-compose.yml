@@ -1,0 +1,11 @@
+﻿
+services:
+  nginx:
+    build:
+        context: ./public
+        dockerfile: Dockerfile
+    container_name: nginx_server
+    ports:
+    - "8080:80"
+    
+ 
