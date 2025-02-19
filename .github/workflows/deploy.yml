@@ -3,14 +3,16 @@
 on:
   push:
    paths:
-   - ´public/index.html´
+    - ´fronted/public/index.html´
    branches:
-   - main
+    - main
   
 
 jobs:
  build_and_deploy:
-   runs-on: self-hosted
+   name: Construir y desplegar en GitHub
+
+   runs-on: ubuntu-latest
    steps:
 
      - name: Checkout del codigo
@@ -21,21 +23,11 @@ jobs:
 
      - name: Construir la imagen
        run: |
-             docker build -t ${{ secrets.DOCKER_USERNAME }}/frontend:latest .../public
+             docker build -t ${{ secrets.DOCKER_USERNAME }}/frontend:latest ./frontend/public
    
      - name: Subir la imagen a Docker Hub
        run: |
              docker push ${{ secrets.DOCKER_USERNAME }}/frontend:latest
-
-     - name: Detener y eliminar el contenedor anterior
-       run: |
-             docker stop nginx_server || true
-             docker rm nginx_server || true
-
-     - name: Construir y ejecutar el nuevo contenedor
-       run: |
-             docker build -t nginx_image .../public
-             docker run -d --name nginx_server -p 8080:80 nginx_image
 
 
 
