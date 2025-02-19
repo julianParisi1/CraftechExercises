@@ -3,7 +3,7 @@
 on:
   push:
    paths:
-    - ´fronted/public/index.html´
+    - ´frontend/public/index.html´
    branches:
     - main
   
