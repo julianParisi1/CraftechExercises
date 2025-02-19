@@ -1,13 +1,9 @@
 ﻿name: Pipeline con Nginx
 
 on:
-
   push:
-
    paths:
-   - .../public/index.html
-   - .../public/Dockerfile
-
+   - ´public/index.html´
    branches:
    - main
   
