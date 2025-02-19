@@ -18,3 +18,18 @@ PASOS:
 
 4. Ejecute el comando docker-compose up --build
 
+-------------------------------------------------------------------------------------------------------------------------
+
+RECURSOS UTILIZADOS:
+
+- Curso basico DevOps - Craftech
+
+- Youtube:
+
+	- https://www.youtube.com/watch?v=a5qkPEod9ng  -- Tutorial que explica como construir un archivo .yml para la pipeline CI/CD, como definir jobs, etc.
+	- https://www.youtube.com/watch?v=4Dko5W96WHg&t=4114s -- Tutorial basico de funcionamiento y comandos de Docker.
+
+- StackOverflow: Utilizado mas que nada para buscar informacion y soluciones a errores puntuales.
+
+- ChatGPT: Utilizado como un asistente para consultas mientras desarrollo y como fuente de informacion sobre tecnologias o conceptos.
+           Lo considero muy util por su capacidad de recolectar informacion y presentarla de una manera estructurada y legible.
