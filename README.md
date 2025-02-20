@@ -20,6 +20,25 @@ PASOS:
 
 -------------------------------------------------------------------------------------------------------------------------
 
+ORGANIZACION DE ARCHIVOS DE LOS EJERCICIOS
+
+PUNTO 2:
+
+- El docker-compose del punto 2 se encuentra en /backend (django, react)
+- 
+- Los Dockerfiles para este punto son dos y se encuentran en /backend(django) y /frontend(react)
+
+
+PUNTO 3:
+
+- El docker-compose del punto 3 se encuentra en /frontend (nginx)
+
+- El Dockerfile de este punto se encuentra en /frontend/public
+
+- El archivo deploy.yml en /.github/workflows es el que configura el pipeline CI/CD
+
+-------------------------------------------------------------------------------------------------------------------------
+
 RECURSOS UTILIZADOS:
 
 - Curso basico DevOps - Craftech
