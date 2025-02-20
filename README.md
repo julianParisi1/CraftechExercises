@@ -25,7 +25,7 @@ ORGANIZACION DE ARCHIVOS DE LOS EJERCICIOS
 PUNTO 2:
 
 - El docker-compose del punto 2 se encuentra en /backend (django, react)
-- 
+
 - Los Dockerfiles para este punto son dos y se encuentran en /backend(django) y /frontend(react)
 
 
