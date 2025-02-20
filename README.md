@@ -4,19 +4,19 @@ REQUISITOS PREVIOS:
 
 Instalar Docker y docker-compose o Docker Desktop. (recomiendo Docker Desktop)
 
-Descargar el proyecto y guardarlo en algun directorio de la computadora.
-
 -------------------------------------------------------------------------------------------------------------------------
 
 PASOS:
 
-1. Abra una instancia de linea de comandos (Bash, Windows PowerShell, etc)
+1. Descargar el proyecto y guardarlo en algun directorio de la computadora: https://github.com/julianParisi1/CraftechExercises
 
-2. Navege hasta el directorio donde tiene descargado el proyecto (utilizando el comando CD) -- Ej: cd C:\Users\Usuario\Desktop\Laburo\Repos
+2. Abra una instancia de linea de comandos (Bash, Windows PowerShell, etc)
 
-3. Acceda a la carpeta backend -- cd backend
+3. Navege hasta el directorio donde tiene guardado el proyecto (utilizando el comando CD) -- Ej: cd C:\Users\Usuario\Desktop\Laburo\Repos
 
-4. Ejecute el comando docker-compose up --build
+4. Acceda a la carpeta backend -- cd backend
+
+5. Ejecute el comando docker-compose up --build
 
 -------------------------------------------------------------------------------------------------------------------------
 
