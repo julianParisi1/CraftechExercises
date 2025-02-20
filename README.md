@@ -4,7 +4,7 @@ REQUISITOS PREVIOS:
 
 Instalar Docker y docker-compose o Docker Desktop. (recomiendo Docker Desktop)
 
-Descargar el proyecto y guardarlo en algun directorio de la maquina que lo va a correr.
+Descargar el proyecto y guardarlo en algun directorio de la computadora.
 
 -------------------------------------------------------------------------------------------------------------------------
 
