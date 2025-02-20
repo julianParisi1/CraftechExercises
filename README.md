@@ -12,7 +12,7 @@ PASOS:
 
 2. Abra una instancia de linea de comandos (Bash, Windows PowerShell, etc)
 
-3. Navege hasta el directorio donde tiene guardado el proyecto (utilizando el comando CD) -- Ej: cd C:\Users\Usuario\Desktop\Laburo\Repos
+3. Navegue hasta el directorio donde tiene guardado el proyecto (utilizando el comando CD) -- Ej: cd C:\Users\Usuario\Desktop\Laburo\Repos
 
 4. Acceda a la carpeta backend -- cd backend
 
