@@ -22,7 +22,7 @@ jobs:
 
      - name: Construir la imagen
        run: |
-             docker build -t ${{ secrets.DOCKER_USERNAME }}/frontend:latest ./frontend/public
+             docker build -t ${{ secrets.DOCKER_USERNAME }}/frontend:latest ./frontend
    
      - name: Subir la imagen a Docker Hub
        run: |
